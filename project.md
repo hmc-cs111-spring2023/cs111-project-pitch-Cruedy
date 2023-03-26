@@ -44,12 +44,14 @@ _What might happen when a program runs? How does a program interact with the
 user? What kinds of errors might occur, and how might they be communicated to
 the user?_
 
-__
+_The program will only run when a video with the effect that the program is changing. When the program runs, you'll see the change in the video. If there is an error in the program, the video frames will freeze and there will be an error message on the bottom of the video player screen._
 
 ### Expressiveness
 
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_
+
+_It should be easy to use expressions to manipulate effects. This basically means that it should be easy to call methods because that would be the main reason to use this language. It should also be easy to right a loop because looping an effect is necessary. It might be difficult to use cases and if statements because it's hard to use videos with cases._
 
 ### Related work
 
@@ -57,6 +59,8 @@ _Are there any other DSLs in this domain? If not, describe how you know there
 aren't and conjecture why not. If so, describe them and provide links. How well
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
+
+_I don't think there are already DSLs in this domain because javascript is used for this and javascript is a general purpose language. Currently javascript does a fine job because you can call methods._
 
 ## The Project
 
@@ -70,11 +74,17 @@ making language design decisions), as opposed to "systems" aspects of the
 project (e.g., implementing a complicated semantics that doesn't require a lot
 of language design)?_
 
+_I think most of the time would be spent on the language aspects of this project because there is already a system set in place for javascript, which is what is currently used in this domain. I think figuring out how to implement the language in this environment would be complicated._
+
 ### Scope
 
 _How big an idea is this? How ambitious is this project?_
+
+_I think this is a really ambitious porject because its a language that would have to work with an already complicated piece of software._
 
 ### Benefits and drawbacks
 
 _Why might this be a good idea for a project? Why might this not be a good idea
 project?_
+
+_I think this is a good idea for a project because it would be helpful for a domain that I really enjoy working in. I think this may not be a good idea for a project because it seems  difficult to implement._
