@@ -44,6 +44,8 @@ _What might happen when a program runs? How does a program interact with the
 user? What kinds of errors might occur, and how might they be communicated to
 the user?_
 
+__
+
 ### Expressiveness
 
 _What should be easy to do in this language? What should be possible, but
